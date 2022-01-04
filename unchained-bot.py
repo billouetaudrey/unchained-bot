@@ -26,10 +26,10 @@ credentials_missing_message = "No credentials found, please go through the authe
                               "or /set_token TOKEN command"
 parameter_missing_message = "One or more parameters are missing. Use /help to check the correct command syntax."
 
-custom_keyboard = [['/help', '/login'],
-                   ['/user', '/downloads'],
-                   ['/torrents']]
-reply_markup = telegram.ReplyKeyboardMarkup(custom_keyboard)
+#custom_keyboard = [['/help', '/login'],
+#                   ['/user', '/downloads'],
+#                   ['/torrents']]
+#reply_markup = telegram.ReplyKeyboardMarkup(custom_keyboard)
 
 
 def send_action(action):
